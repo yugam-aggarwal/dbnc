@@ -1,0 +1,47 @@
+{
+  "ablation_policy": "shared_dbnc_full_configuration",
+  "completed_records": 250,
+  "consistency_issues": [],
+  "datasets_complete_for_ablation": [
+    53,
+    23,
+    15,
+    56,
+    37
+  ],
+  "datasets_expected": [
+    53,
+    23,
+    15,
+    56,
+    37
+  ],
+  "delta_convention": "variant_minus_full",
+  "execution_scope": "confirmatory_ablation",
+  "expected_records": 250,
+  "expected_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "expected_variants": [
+    "full",
+    "fixed_tan",
+    "conditional_only",
+    "mlp_cpd",
+    "no_regularization",
+    "loss_w_000",
+    "loss_w_025",
+    "loss_w_050",
+    "loss_w_075",
+    "loss_w_100"
+  ],
+  "failure_records": 0,
+  "mode": "full_config_toggle",
+  "phase": "phase_2",
+  "protocol_complete": true,
+  "report_root": "reports_ablation_attention_5",
+  "same_split_transform_and_tuning": true
+}

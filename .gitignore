@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Large / raw experiment outputs — only the aggregated results in results/ are tracked
+/raw_results/
+/cache/
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+
+# Tool caches
+.pytest_cache/
+.mplconfig/

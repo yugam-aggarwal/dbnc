@@ -1,0 +1,1265 @@
+{
+  "accuracy": {
+    "critical_difference": 3.0423460843482766,
+    "datasets_complete": 30,
+    "friedman": {
+      "p_value": 8.188685049549186e-40,
+      "statistic": 214.2360520094562
+    },
+    "mean_ranks": {
+      "BAN": 7.233333333333333,
+      "CatBoost": 2.9166666666666665,
+      "Chow-Liu": 10.6,
+      "DBNC": 6.033333333333333,
+      "FT-Transformer": 3.933333333333333,
+      "KDB-1": 8.566666666666666,
+      "KDB-2": 7.233333333333333,
+      "KDB-3": 7.733333333333333,
+      "LightGBM": 2.533333333333333,
+      "NB": 10.583333333333334,
+      "TAN": 7.866666666666666,
+      "XGBoost": 2.7666666666666666
+    },
+    "methods_complete": 12,
+    "nemenyi": [
+      {
+        "left": "DBNC",
+        "p_value": 6.52614481124747e-05,
+        "rank_difference": 4.550000000000001,
+        "right": "NB"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 5.96402062031931e-05,
+        "rank_difference": 4.566666666666666,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.714511589272067,
+        "rank_difference": 1.833333333333333,
+        "right": "TAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9806517789686787,
+        "rank_difference": 1.2000000000000002,
+        "right": "BAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.21555483342460002,
+        "rank_difference": 2.533333333333333,
+        "right": "KDB-1"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9806517789686787,
+        "rank_difference": 1.2000000000000002,
+        "right": "KDB-2"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.8038795486376463,
+        "rank_difference": 1.7000000000000002,
+        "right": "KDB-3"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.022850868024527404,
+        "rank_difference": 3.2666666666666666,
+        "right": "XGBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.038919018271925676,
+        "rank_difference": 3.1166666666666667,
+        "right": "CatBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.00932097013309996,
+        "rank_difference": 3.5,
+        "right": "LightGBM"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.5086361522260061,
+        "rank_difference": 2.1,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "NB",
+        "p_value": 1.0,
+        "rank_difference": 0.01666666666666572,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.1343207863160395,
+        "rank_difference": 2.7166666666666677,
+        "right": "TAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.016744878086676906,
+        "rank_difference": 3.3500000000000005,
+        "right": "BAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.5744079754990377,
+        "rank_difference": 2.0166666666666675,
+        "right": "KDB-1"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.016744878086676906,
+        "rank_difference": 3.3500000000000005,
+        "right": "KDB-2"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.09163676353289096,
+        "rank_difference": 2.8500000000000005,
+        "right": "KDB-3"
+      },
+      {
+        "left": "NB",
+        "p_value": 3.219646771412954e-15,
+        "rank_difference": 7.816666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 1.199040866595169e-14,
+        "rank_difference": 7.666666666666668,
+        "right": "CatBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 5.551115123125783e-16,
+        "rank_difference": 8.05,
+        "right": "LightGBM"
+      },
+      {
+        "left": "NB",
+        "p_value": 6.01441119130186e-11,
+        "rank_difference": 6.65,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.1282735627181647,
+        "rank_difference": 2.7333333333333334,
+        "right": "TAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.015715548462053586,
+        "rank_difference": 3.3666666666666663,
+        "right": "BAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.5612407739642573,
+        "rank_difference": 2.033333333333333,
+        "right": "KDB-1"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.015715548462053586,
+        "rank_difference": 3.3666666666666663,
+        "right": "KDB-2"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.08716761336388246,
+        "rank_difference": 2.8666666666666663,
+        "right": "KDB-3"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 2.886579864025407e-15,
+        "rank_difference": 7.833333333333333,
+        "right": "XGBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 1.0436096431476471e-14,
+        "rank_difference": 7.683333333333334,
+        "right": "CatBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 5.551115123125783e-16,
+        "rank_difference": 8.066666666666666,
+        "right": "LightGBM"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 5.278877335257448e-11,
+        "rank_difference": 6.666666666666666,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999433447083412,
+        "rank_difference": 0.6333333333333329,
+        "right": "BAN"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9998467926829642,
+        "rank_difference": 0.7000000000000002,
+        "right": "KDB-1"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999433447083412,
+        "rank_difference": 0.6333333333333329,
+        "right": "KDB-2"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999999999967499,
+        "rank_difference": 0.13333333333333286,
+        "right": "KDB-3"
+      },
+      {
+        "left": "TAN",
+        "p_value": 2.8036695322031235e-06,
+        "rank_difference": 5.1,
+        "right": "XGBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 6.853702251952143e-06,
+        "rank_difference": 4.949999999999999,
+        "right": "CatBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 6.626342710092104e-07,
+        "rank_difference": 5.333333333333333,
+        "right": "LightGBM"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.0014337663175258974,
+        "rank_difference": 3.933333333333333,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.9573604778570909,
+        "rank_difference": 1.333333333333333,
+        "right": "KDB-1"
+      },
+      {
+        "left": "BAN",
+        "p_value": 1.0,
+        "rank_difference": 0.0,
+        "right": "KDB-2"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.9999949533420236,
+        "rank_difference": 0.5,
+        "right": "KDB-3"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.0001018690401772826,
+        "rank_difference": 4.466666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.00022222828237683512,
+        "rank_difference": 4.316666666666666,
+        "right": "CatBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 2.866516649813189e-05,
+        "rank_difference": 4.7,
+        "right": "LightGBM"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.02020440003691304,
+        "rank_difference": 3.3000000000000003,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.9573604778570909,
+        "rank_difference": 1.333333333333333,
+        "right": "KDB-2"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.999180822452032,
+        "rank_difference": 0.833333333333333,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 3.0674025319754605e-08,
+        "rank_difference": 5.8,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 8.462941269993252e-08,
+        "rank_difference": 5.65,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 6.0120866063329e-09,
+        "rank_difference": 6.033333333333333,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 4.145806476418823e-05,
+        "rank_difference": 4.633333333333333,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.9999949533420236,
+        "rank_difference": 0.5,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.0001018690401772826,
+        "rank_difference": 4.466666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.00022222828237683512,
+        "rank_difference": 4.316666666666666,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 2.866516649813189e-05,
+        "rank_difference": 4.7,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.02020440003691304,
+        "rank_difference": 3.3000000000000003,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 6.213795057496974e-06,
+        "rank_difference": 4.966666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 1.4837390483246615e-05,
+        "rank_difference": 4.816666666666666,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 1.5226520287958678e-06,
+        "rank_difference": 5.2,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 0.0026215900629328326,
+        "rank_difference": 3.8000000000000003,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9999999999881958,
+        "rank_difference": 0.1499999999999999,
+        "right": "CatBoost"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9999999985354449,
+        "rank_difference": 0.2333333333333334,
+        "right": "LightGBM"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9845089203323921,
+        "rank_difference": 1.1666666666666665,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.9999996923199581,
+        "rank_difference": 0.3833333333333333,
+        "right": "LightGBM"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.995068536790557,
+        "rank_difference": 1.0166666666666666,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "LightGBM",
+        "p_value": 0.9399868473830459,
+        "rank_difference": 1.4,
+        "right": "FT-Transformer"
+      }
+    ]
+  },
+  "ece": {
+    "critical_difference": 3.0423460843482766,
+    "datasets_complete": 30,
+    "friedman": {
+      "p_value": 5.670987932062086e-20,
+      "statistic": 117.53579784744964
+    },
+    "mean_ranks": {
+      "BAN": 7.633333333333334,
+      "CatBoost": 4.466666666666667,
+      "Chow-Liu": 5.066666666666666,
+      "DBNC": 5.466666666666667,
+      "FT-Transformer": 3.3666666666666667,
+      "KDB-1": 7.933333333333334,
+      "KDB-2": 7.633333333333334,
+      "KDB-3": 8.7,
+      "LightGBM": 4.766666666666667,
+      "NB": 10.166666666666666,
+      "TAN": 8.366666666666667,
+      "XGBoost": 4.433333333333334
+    },
+    "methods_complete": 12,
+    "nemenyi": [
+      {
+        "left": "DBNC",
+        "p_value": 2.866516649813189e-05,
+        "rank_difference": 4.699999999999999,
+        "right": "NB"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9999995163856712,
+        "rank_difference": 0.40000000000000036,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.07875910237879791,
+        "rank_difference": 2.9000000000000004,
+        "right": "TAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.45680023238611955,
+        "rank_difference": 2.166666666666667,
+        "right": "BAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.252014090799731,
+        "rank_difference": 2.466666666666667,
+        "right": "KDB-1"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.45680023238611955,
+        "rank_difference": 2.166666666666667,
+        "right": "KDB-2"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.025799798548897024,
+        "rank_difference": 3.2333333333333325,
+        "right": "KDB-3"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9943279729515645,
+        "rank_difference": 1.0333333333333332,
+        "right": "XGBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9957273478216346,
+        "rank_difference": 1.0,
+        "right": "CatBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.9998467926829642,
+        "rank_difference": 0.7000000000000002,
+        "right": "LightGBM"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.5086361522260061,
+        "rank_difference": 2.1,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "NB",
+        "p_value": 2.8036695322031235e-06,
+        "rank_difference": 5.1,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.7381779700384298,
+        "rank_difference": 1.799999999999999,
+        "right": "TAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.21555483342460047,
+        "rank_difference": 2.5333333333333323,
+        "right": "BAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.4065482840772182,
+        "rank_difference": 2.2333333333333325,
+        "right": "KDB-1"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.21555483342460047,
+        "rank_difference": 2.5333333333333323,
+        "right": "KDB-2"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.9181508048933726,
+        "rank_difference": 1.4666666666666668,
+        "right": "KDB-3"
+      },
+      {
+        "left": "NB",
+        "p_value": 4.830994981830372e-08,
+        "rank_difference": 5.7333333333333325,
+        "right": "XGBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 6.051230772019522e-08,
+        "rank_difference": 5.699999999999999,
+        "right": "CatBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 4.337809008658766e-07,
+        "rank_difference": 5.3999999999999995,
+        "right": "LightGBM"
+      },
+      {
+        "left": "NB",
+        "p_value": 1.8382184663323642e-11,
+        "rank_difference": 6.799999999999999,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.02020440003691293,
+        "rank_difference": 3.3000000000000007,
+        "right": "TAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.19871915212524416,
+        "rank_difference": 2.5666666666666673,
+        "right": "BAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.08716761336388223,
+        "rank_difference": 2.866666666666667,
+        "right": "KDB-1"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.19871915212524416,
+        "rank_difference": 2.5666666666666673,
+        "right": "KDB-2"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.005387542387568001,
+        "rank_difference": 3.633333333333333,
+        "right": "KDB-3"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.9999433447083412,
+        "rank_difference": 0.6333333333333329,
+        "right": "XGBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.9999671627977222,
+        "rank_difference": 0.5999999999999996,
+        "right": "CatBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.999999977749401,
+        "rank_difference": 0.2999999999999998,
+        "right": "LightGBM"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.8038795486376464,
+        "rank_difference": 1.6999999999999997,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9997585241627944,
+        "rank_difference": 0.7333333333333334,
+        "right": "BAN"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999988723190363,
+        "rank_difference": 0.43333333333333357,
+        "right": "KDB-1"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9997585241627944,
+        "rank_difference": 0.7333333333333334,
+        "right": "KDB-2"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999999309053842,
+        "rank_difference": 0.33333333333333215,
+        "right": "KDB-3"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.0014337663175258974,
+        "rank_difference": 3.9333333333333336,
+        "right": "XGBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.0016709688542679846,
+        "rank_difference": 3.9000000000000004,
+        "right": "CatBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.006193544039297283,
+        "rank_difference": 3.6000000000000005,
+        "right": "LightGBM"
+      },
+      {
+        "left": "TAN",
+        "p_value": 5.102650617705429e-06,
+        "rank_difference": 5.0,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.999999977749401,
+        "rank_difference": 0.2999999999999998,
+        "right": "KDB-1"
+      },
+      {
+        "left": "BAN",
+        "p_value": 1.0,
+        "rank_difference": 0.0,
+        "right": "KDB-2"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.9925717435939009,
+        "rank_difference": 1.0666666666666655,
+        "right": "KDB-3"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.02907903414845081,
+        "rank_difference": 3.2,
+        "right": "XGBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.03271799688415877,
+        "rank_difference": 3.166666666666667,
+        "right": "CatBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.08716761336388223,
+        "rank_difference": 2.866666666666667,
+        "right": "LightGBM"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.0002864310496254463,
+        "rank_difference": 4.2666666666666675,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.999999977749401,
+        "rank_difference": 0.2999999999999998,
+        "right": "KDB-2"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.9996288615942135,
+        "rank_difference": 0.7666666666666657,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.00932097013309996,
+        "rank_difference": 3.5,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.010647374994116388,
+        "rank_difference": 3.466666666666667,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.03271799688415877,
+        "rank_difference": 3.166666666666667,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 5.96402062031931e-05,
+        "rank_difference": 4.566666666666666,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.9925717435939009,
+        "rank_difference": 1.0666666666666655,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.02907903414845081,
+        "rank_difference": 3.2,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.03271799688415877,
+        "rank_difference": 3.166666666666667,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.08716761336388223,
+        "rank_difference": 2.866666666666667,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.0002864310496254463,
+        "rank_difference": 4.2666666666666675,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 0.0002864310496254463,
+        "rank_difference": 4.266666666666666,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 0.0003386440576143013,
+        "rank_difference": 4.2333333333333325,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 0.0014337663175258974,
+        "rank_difference": 3.9333333333333327,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 6.626342710092104e-07,
+        "rank_difference": 5.333333333333332,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 1.0,
+        "rank_difference": 0.033333333333333215,
+        "right": "CatBoost"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9999999309053842,
+        "rank_difference": 0.33333333333333304,
+        "right": "LightGBM"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9925717435939008,
+        "rank_difference": 1.0666666666666669,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.999999977749401,
+        "rank_difference": 0.2999999999999998,
+        "right": "LightGBM"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.9903956786571165,
+        "rank_difference": 1.1,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "LightGBM",
+        "p_value": 0.9399868473830459,
+        "rank_difference": 1.4,
+        "right": "FT-Transformer"
+      }
+    ]
+  },
+  "log_loss": {
+    "critical_difference": 3.0423460843482766,
+    "datasets_complete": 30,
+    "friedman": {
+      "p_value": 4.815905801141691e-37,
+      "statistic": 200.90990990990997
+    },
+    "mean_ranks": {
+      "BAN": 7.333333333333333,
+      "CatBoost": 3.0,
+      "Chow-Liu": 9.55,
+      "DBNC": 5.3,
+      "FT-Transformer": 3.2,
+      "KDB-1": 8.166666666666666,
+      "KDB-2": 7.333333333333333,
+      "KDB-3": 8.2,
+      "LightGBM": 3.6333333333333333,
+      "NB": 11.083333333333334,
+      "TAN": 8.333333333333334,
+      "XGBoost": 2.8666666666666667
+    },
+    "methods_complete": 12,
+    "nemenyi": [
+      {
+        "left": "DBNC",
+        "p_value": 3.437902695857531e-08,
+        "rank_difference": 5.783333333333334,
+        "right": "NB"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.00031149976390776324,
+        "rank_difference": 4.250000000000001,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.05151088367026757,
+        "rank_difference": 3.033333333333334,
+        "right": "TAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.5612407739642573,
+        "rank_difference": 2.033333333333333,
+        "right": "BAN"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.08716761336388246,
+        "rank_difference": 2.8666666666666663,
+        "right": "KDB-1"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.5612407739642573,
+        "rank_difference": 2.033333333333333,
+        "right": "KDB-2"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.07875910237879813,
+        "rank_difference": 2.8999999999999995,
+        "right": "KDB-3"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.2716177000398744,
+        "rank_difference": 2.433333333333333,
+        "right": "XGBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.35858078385826675,
+        "rank_difference": 2.3,
+        "right": "CatBoost"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.8237424330748955,
+        "rank_difference": 1.6666666666666665,
+        "right": "LightGBM"
+      },
+      {
+        "left": "DBNC",
+        "p_value": 0.5086361522260067,
+        "rank_difference": 2.0999999999999996,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.8915434209679658,
+        "rank_difference": 1.5333333333333332,
+        "right": "Chow-Liu"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.12243730290290056,
+        "rank_difference": 2.75,
+        "right": "TAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.0032670697228841528,
+        "rank_difference": 3.750000000000001,
+        "right": "BAN"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.0748105841638721,
+        "rank_difference": 2.916666666666668,
+        "right": "KDB-1"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.0032670697228841528,
+        "rank_difference": 3.750000000000001,
+        "right": "KDB-2"
+      },
+      {
+        "left": "NB",
+        "p_value": 0.08287657781664493,
+        "rank_difference": 2.8833333333333346,
+        "right": "KDB-3"
+      },
+      {
+        "left": "NB",
+        "p_value": 3.3306690738754696e-16,
+        "rank_difference": 8.216666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 4.440892098500626e-16,
+        "rank_difference": 8.083333333333334,
+        "right": "CatBoost"
+      },
+      {
+        "left": "NB",
+        "p_value": 8.060219158778636e-14,
+        "rank_difference": 7.450000000000001,
+        "right": "LightGBM"
+      },
+      {
+        "left": "NB",
+        "p_value": 1.887379141862766e-15,
+        "rank_difference": 7.883333333333334,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.9784615944509609,
+        "rank_difference": 1.2166666666666668,
+        "right": "TAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.41892227713402064,
+        "rank_difference": 2.2166666666666677,
+        "right": "BAN"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.9447329155536842,
+        "rank_difference": 1.3833333333333346,
+        "right": "KDB-1"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.41892227713402064,
+        "rank_difference": 2.2166666666666677,
+        "right": "KDB-2"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 0.9534124916491399,
+        "rank_difference": 1.3500000000000014,
+        "right": "KDB-3"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 4.6318282542756606e-11,
+        "rank_difference": 6.683333333333334,
+        "right": "XGBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 1.306863506300715e-10,
+        "rank_difference": 6.550000000000001,
+        "right": "CatBoost"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 1.3685554578479753e-08,
+        "rank_difference": 5.916666666666668,
+        "right": "LightGBM"
+      },
+      {
+        "left": "Chow-Liu",
+        "p_value": 5.963640692385752e-10,
+        "rank_difference": 6.3500000000000005,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9957273478216345,
+        "rank_difference": 1.0000000000000009,
+        "right": "BAN"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999999999626281,
+        "rank_difference": 0.16666666666666785,
+        "right": "KDB-1"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9957273478216345,
+        "rank_difference": 1.0000000000000009,
+        "right": "KDB-2"
+      },
+      {
+        "left": "TAN",
+        "p_value": 0.9999999999967499,
+        "rank_difference": 0.13333333333333464,
+        "right": "KDB-3"
+      },
+      {
+        "left": "TAN",
+        "p_value": 2.8251864614414757e-07,
+        "rank_difference": 5.466666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 6.626342710092104e-07,
+        "rank_difference": 5.333333333333334,
+        "right": "CatBoost"
+      },
+      {
+        "left": "TAN",
+        "p_value": 2.866516649813189e-05,
+        "rank_difference": 4.700000000000001,
+        "right": "LightGBM"
+      },
+      {
+        "left": "TAN",
+        "p_value": 2.2904038435855867e-06,
+        "rank_difference": 5.133333333333334,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.999180822452032,
+        "rank_difference": 0.833333333333333,
+        "right": "KDB-1"
+      },
+      {
+        "left": "BAN",
+        "p_value": 1.0,
+        "rank_difference": 0.0,
+        "right": "KDB-2"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.9988197485443168,
+        "rank_difference": 0.8666666666666663,
+        "right": "KDB-3"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.0001018690401772826,
+        "rank_difference": 4.466666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.00020405985314397856,
+        "rank_difference": 4.333333333333333,
+        "right": "CatBoost"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.004057537691597557,
+        "rank_difference": 3.6999999999999997,
+        "right": "LightGBM"
+      },
+      {
+        "left": "BAN",
+        "p_value": 0.0005549423817431398,
+        "rank_difference": 4.133333333333333,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 0.999180822452032,
+        "rank_difference": 0.833333333333333,
+        "right": "KDB-2"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 1.0,
+        "rank_difference": 0.033333333333333215,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 8.174131985727584e-07,
+        "rank_difference": 5.299999999999999,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 1.8686862024441808e-06,
+        "rank_difference": 5.166666666666666,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 7.138842478926488e-05,
+        "rank_difference": 4.533333333333333,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-1",
+        "p_value": 6.213795057496974e-06,
+        "rank_difference": 4.966666666666666,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.9988197485443168,
+        "rank_difference": 0.8666666666666663,
+        "right": "KDB-3"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.0001018690401772826,
+        "rank_difference": 4.466666666666667,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.00020405985314397856,
+        "rank_difference": 4.333333333333333,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.004057537691597557,
+        "rank_difference": 3.6999999999999997,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-2",
+        "p_value": 0.0005549423817431398,
+        "rank_difference": 4.133333333333333,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 6.626342710092104e-07,
+        "rank_difference": 5.333333333333332,
+        "right": "XGBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 1.5226520287958678e-06,
+        "rank_difference": 5.199999999999999,
+        "right": "CatBoost"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 5.96402062031931e-05,
+        "rank_difference": 4.566666666666666,
+        "right": "LightGBM"
+      },
+      {
+        "left": "KDB-3",
+        "p_value": 5.102650617705429e-06,
+        "rank_difference": 4.999999999999999,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9999999999967499,
+        "rank_difference": 0.1333333333333333,
+        "right": "CatBoost"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9996288615942135,
+        "rank_difference": 0.7666666666666666,
+        "right": "LightGBM"
+      },
+      {
+        "left": "XGBoost",
+        "p_value": 0.9999999309053842,
+        "rank_difference": 0.3333333333333335,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.9999433447083412,
+        "rank_difference": 0.6333333333333333,
+        "right": "LightGBM"
+      },
+      {
+        "left": "CatBoost",
+        "p_value": 0.9999999997264699,
+        "rank_difference": 0.20000000000000018,
+        "right": "FT-Transformer"
+      },
+      {
+        "left": "LightGBM",
+        "p_value": 0.9999988723190363,
+        "rank_difference": 0.4333333333333331,
+        "right": "FT-Transformer"
+      }
+    ]
+  }
+}
