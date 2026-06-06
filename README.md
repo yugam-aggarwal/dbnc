@@ -1,6 +1,6 @@
 # DBNC — Differentiable Bayesian Network Classifier
 
-Reference implementation for the paper **"Rethinking Bayesian Network Classifiers for Categorical Tabular Data with Differentiable Structure Learning"**.
+Official implementation of **"Rethinking Bayesian Network Classifiers for Categorical Tabular Data with Differentiable Structure Learning"**.
 
 `DBNC` learns a **rank-parameterised soft DAG** (acyclic by construction) together with **attention-based neural conditional probability models**, trained end-to-end under a hybrid generative–discriminative objective. It outperforms classical Bayesian-network classifiers (Naive Bayes, Chow-Liu, TAN, BAN, *k*-DB) while preserving an explicit, interpretable learned dependency graph.
 
@@ -33,7 +33,7 @@ A runnable end-to-end example (synthetic data, no downloads required):
 python examples/quickstart.py
 ```
 
-## Package Layout
+## Repository Layout
 
 ```
 src/dbnc/
@@ -58,7 +58,7 @@ examples/              # quickstart + figure reproduction
 
 ## Reproducing Figures and Tables
 
-The aggregated results backing every table and figure are provided in `results/`. Figures can be regenerated without retraining:
+Aggregated results backing every table and figure are provided in `results/`. Figures can be regenerated without retraining:
 
 ```bash
 pip install -e ".[figures]"
@@ -95,7 +95,7 @@ pytest -q
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you use this work, please cite:
 
 ```bibtex
 @article{dbnc,
